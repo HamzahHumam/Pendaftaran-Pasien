@@ -3,6 +3,7 @@ package id.sch.smktelkom_mlg.tugas01.xiirpl3016.rumahsakit;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.View;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.EditText;
@@ -41,6 +42,47 @@ public class MainActivity extends AppCompatActivity {
         spinnerPenyakit = (Spinner) findViewById(R.id.spinnerPenyakit);
         buttonOK = (Button) findViewById(R.id.buttonOK);
         tvHasil = (TextView) findViewById(R.id.tvHasil);
+
+
+        buttonOK.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                doProces();
+            }
+        });
+    }
+
+    private void doProces() {
+        String nama = NamaPasien.getText().toString();
+        String alamat = AlamatPasien.getText().toString();
+        String tahun = TahunPasien.getText().toString();
+        String lamamenginap = LamaMenginapPasien.getText().toString();
+        String jeniskelamin = "";
+        String namakamar = "";
+        String jenispenyakit = spinnerPenyakit.getSelectedItem().toString();
+
+        if (radioButtonLaki.isChecked()) {
+            jeniskelamin = radioButtonLaki.getText().toString();
+        } else if (radioButtonPerempuan.isChecked()) {
+            jeniskelamin = radioButtonPerempuan.getText().toString();
+        }
+
+        if (checkBoxAnggrek.isChecked())
+            namakamar += checkBoxAnggrek.getText().toString();
+        if (checkBoxMelati.isChecked())
+            namakamar += checkBoxMelati.getText().toString();
+        if (checkBoxMawar.isChecked())
+            namakamar += checkBoxMawar.getText().toString();
+
+        tvHasil.setText("Nama : " + nama + "\n" +
+                "Alamat : " + alamat + "\n" +
+                "Tahun : " + tahun + "\n" +
+                "Lama Menginap : " + lamamenginap + "\n" +
+                "Jenis Kelamin : " + jeniskelamin + "\n" +
+                "Nama Kamar : " + namakamar + "\n" +
+                "Jenis Penyakit : " + jenispenyakit + "\n"
+        );
+
 
     }
 
