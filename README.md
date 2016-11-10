@@ -1,26 +1,31 @@
-# Pendaftaran-Pasien
-Aplikasi ini adalah sebuah aplikasi yang digunakan untuk menginputkan data untuk pasien yang sakit, dan harus melakukan rawat inap di rumah sakit.
-Dalam aplikasi ini terdapat Form yang harus diisi antara lain:
-1. Nama Pasien
-2. Alamat Pasien
-3. Tahun Lahir Pasien
-4. Lama Menginap
-5. Jenis Kelamin
-6. Nama Kamar
-7. Penyakit Yang Diderita
+<h1>Pendaftaran-Pasien</h1>
 
-Screenshot Aplikasi:
-![](https://github.com/HamzahHumam/Pendaftaran-Pasien/blob/master/XIIRPL3_Hamzah%20Humam_16_ScreenShoot1.jpeg)
-![](https://github.com/HamzahHumam/Pendaftaran-Pasien/blob/master/XIIRPL3_Hamzah%20Humam_16_ScreenShoot2.jpeg)
-![](https://github.com/HamzahHumam/Pendaftaran-Pasien/blob/master/XIIRPL3_Hamzah%20Humam_16_ScreenShoot2.jpeg)
+Aplikasi ini adalah sebuah aplikasi yang digunakan untuk menginputkan data untuk pasien yang sakit,
+dan harus melakukan rawat inap di rumah sakit.
 
-Link Apk:
-https://drive.google.com/open?id=0BxFPPcjJwwqCMFdveUdQUElwcVU
+<h2>Dalam aplikasi ini terdapat Form yang harus diisi antara lain:</h2>
 
-Terimakasih.
+* Nama Pasien
+* Alamat Pasien
+* Tahun Lahir Pasien
+* Lama Menginap
+* Jenis Kelamin
+* Nama Kamar
+* Penyakit Yang Diderita
 
-Nama      : Hamzah Humam
-Kelas     : XIIRPL3
-No. Urut  : 16
-NIS       : 4353/1251.063
-Sekolah   : SMK TELKOM MALANG
+<h3>ScreenShot</h3>
+<br>![xiirpl3_hamzah humam_16_screenshoot1](https://cloud.githubusercontent.com/assets/22854700/20167164/31bdc010-a74c-11e6-86ef-ff0ddf6e388d.jpeg)
+
+<br>![xiirpl3_hamzah humam_16_screenshoot2](https://cloud.githubusercontent.com/assets/22854700/20166875/48f2f306-a74a-11e6-9162-817aba063a62.jpeg)
+
+<br>![xiirpl3_hamzah humam_16_screenshoot3](https://cloud.githubusercontent.com/assets/22854700/20166876/48f38398-a74a-11e6-9b38-a0bcd712bd71.jpeg)
+
+<h4>Link APK:</h4>
+# https://drive.google.com/open?id=0BxFPPcjJwwqCMFdveUdQUElwcVU
+
+<h5> Identitas</h5>
+* Nama    : Hamzah Humam 
+* No      : 16
+* Kelas   : XIIRPL3
+* NIS     : 4353/1251-070
+* Sekolah : SMK Telkom Malang
